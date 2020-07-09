@@ -44,27 +44,7 @@
 
 <nav id="leftnav">
   <ul class="topmenu">
-  <li>
-    <a href="https://www.readingglasses.com/" target="rg">Home</a>
-  </li>
-  {{#each categories}}
-    {{#if ../has_multiple_categories}}
-      <li class="blocks-item">
-        <a href='{{url}}' class="blocks-item-link">
-          <span class="blocks-item-title">{{name}}</span>
-        </a>
-      </li>
-    {{else}}
-      {{#each sections}}
-        <li class="blocks-item" id="{{id}}">
-          <a href='{{url}}' class="blocks-item-link">
-            <span class="blocks-item-title">
-              {{name}}
-            </span>
-          </a>
-        </li>
-      {{/each}}
-    {{/if}}
-  {{/each}}
+    <li><a href="https://www.readingglasses.com/" target="rg">Home</a></li>
+    <li><a href="/knowledge-center/" target="rg">Our other knowledge center</a></li>
   </ul>
 </nav>
