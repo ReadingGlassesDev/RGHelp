@@ -12,10 +12,7 @@
 <div class="article-container">
 <aside class="article-sidebar">
 <div class="collapsible-sidebar">
-<ul>
-{{#each categories}}
-{{#is name category.name}}
-<li><details open><summary>{{name}}</summary>
+<details open><summary>{{name}}</summary>
   {{#each articles}}
                   <li class="article-list-item{{#if promoted}} article-promoted{{/if}}">
                     {{#if promoted}}
@@ -32,12 +29,7 @@
                     {{/if}}
                   </li>
                 {{/each}}
-                </summary></details>
-  {{else}}
-<li><a href='{{url}}'>{{name}}</a></li>
-  {{/is}}
-{{/each}}
-</ul>
+                </details>
 </div>
 </aside>
 <div id="wrapper">
