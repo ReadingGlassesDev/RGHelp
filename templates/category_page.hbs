@@ -5,7 +5,7 @@
   {{#each sections}}
   {{#if articles}}
   <details><summary>{{name}}</summary>
-      {{#each articles}
+      {{#each articles}}
         <li class="article-list-item{{#if promoted}} article-promoted{{/if}}">
           {{#if promoted}}
             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="icon-star" title="{{t 'promoted'}}">
