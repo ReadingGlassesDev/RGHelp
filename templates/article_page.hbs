@@ -23,9 +23,10 @@
               <path stroke="currentColor" stroke-linecap="round" d="M3 9l6-6m0 6L3 3"/>
             </svg>
           </button>
-          <span id="section-articles-title" class="collapsible-sidebar-title sidenav-title">
+          <details>
+          <summary id="section-articles-title" class="collapsible-sidebar-title sidenav-title">
             {{t 'articles_in_section'}}
-          </span>
+          </summary>
           <div class="collapsible-sidebar-body">
             <ul>
               {{#each section.articles}}
@@ -38,6 +39,7 @@
               <a href="{{section.url}}" class="article-sidebar-item">{{t 'see_more'}}</a>
             {{/if}}
           </div>
+          </details>
         </div>
       {{/if}}
     </aside>
