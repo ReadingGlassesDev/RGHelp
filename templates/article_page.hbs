@@ -169,12 +169,16 @@
       {{#if settings.show_article_comments}}
         <div class="article-comments" id="article-comments">
           <section class="comments">
+            
+              {{#form 'comment'}}
             <header class="comment-overview">
               <h2 class="comment-heading">
                 {{t 'comments'}}
               </h2>
-              <p class="comment-callout">{{t 'comments_count' count=article.comment_count}}</p>
+              {{/form}}
+              
               {{#if comments}}
+              <p class="comment-callout">{{t 'comments_count' count=article.comment_count}}</p>
                 <div class="dropdown comment-sorter">
                   <button class="dropdown-toggle" aria-haspopup="true">
                     {{t 'sort_by'}}
@@ -275,10 +279,11 @@
                 <div class="comment-form-controls">
                   {{input type='submit' class="button button-large"}}
                 </div>
+                {{comment_callout}}
               </div>
             {{/form}}
 
-            <p class="comment-callout">{{comment_callout}}</p>
+          
           </section>
         </div>
       {{/if}}
