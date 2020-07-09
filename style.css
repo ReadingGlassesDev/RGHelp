@@ -197,6 +197,9 @@ body {
 }
 
 @media (min-width: 1024px) {
+  main, nav { float: left; }
+  nav { width: 200px; padding: 20px; }
+  .footer { clear: both; }
   body > main {
     min-height: 65vh;
   }
