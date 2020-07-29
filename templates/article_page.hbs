@@ -1,4 +1,4 @@
-
+<script>var RG_PAGE_TYPE = "ArticlePage";</script>
 
 <div class="container-divider"></div>
 <div class="container">
@@ -14,6 +14,27 @@
   </nav>
 
   <div class="article-container" id="article-container">
+    <div class="row">
+    <!--Sidebar-->
+      <aside class="rg-mm-wrapper col-xs-12 col-sm-4 col-md-3">
+          <div class="rg-toggle-menu" data-target="#rg-mm-menu" aria-expanded="false">
+              <p class="rg-w-700 text-uppercase">Menu</p>
+              <p class="rg-icon">
+                  <i class="fa fa-plus pull-right text-right"></i>
+                  <i class="fa fa-minus pull-right text-right"></i>
+              </p>
+          </div>
+
+          <div id="rg-mm-styles">
+
+          </div>
+
+          <div class="rg-mm-menu" id="rg-mm-menu" data-margin-top="20" data-sticky-for="767" data-sticky-wrap="true">
+
+          </div>
+      </aside>
+      <!--/Sidebar-->
+
     <aside class="article-sidebar" aria-labelledby="section-articles-title">
       {{#if settings.show_articles_in_section}}
         <div class="collapsible-sidebar">
