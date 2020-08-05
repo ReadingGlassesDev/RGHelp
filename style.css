@@ -7145,27 +7145,7 @@ a.footer-download-app {
 	color: #777;
 }
 
-/*-------------------------------------------*/
-
-/* Multilevel Menu Module
-/*-------------------------------------------*/
-
-/*
-  Plugin Name: Multilevel Plugin
-  Version: v2.1.1
-  Author: Allies Interactive
-  Website: http://www.diziana.com/
-  Corporate Website : http://www.diziana.com
-  Contact: support@diziana.com
-  Follow: https://www.twitter.com/dizianaEngage
-  Like: https://www.facebook.com/diziana.engage
-  Purchase: Diziana.com
-  License: You must have a valid license purchased only from
-  diziana.com in order to legally use the theme for your project.
-  Copyright: © 2016 Allies Interactive. All Rights Reserved
-*/
-
-#diziana-multilevel-menu {
+#readingglasses-multilevel-menu {
 	display: inline-block;
 	width: 100%;
 	min-height: 30px;
@@ -7173,17 +7153,17 @@ a.footer-download-app {
 	padding: 0;
 }
 
-#diziana-multilevel-menu .icons8-plus::before,
-#diziana-multilevel-menu .icons8-minus::before {
+#readingglasses-multilevel-menu .icons8-plus::before,
+#readingglasses-multilevel-menu .icons8-minus::before {
 	font-family: 'Icons8' !important;
 	color: #2d471f;
 }
 
-#diziana-multilevel-menu ul,
-#diziana-multilevel-menu li,
-#diziana-multilevel-menu span,
-#diziana-multilevel-menu a,
-#diziana-multilevel-menu p {
+#readingglasses-multilevel-menu ul,
+#readingglasses-multilevel-menu li,
+#readingglasses-multilevel-menu span,
+#readingglasses-multilevel-menu a,
+#readingglasses-multilevel-menu p {
 	font-size: 1em;
 	display: block;
 	min-width: 0;
@@ -7197,137 +7177,137 @@ a.footer-download-app {
 	outline: 0;
 }
 
-#diziana-multilevel-menu a,
-#diziana-multilevel-menu a:link,
-#diziana-multilevel-menu a:hover,
-#diziana-multilevel-menu a:active {
+#readingglasses-multilevel-menu a,
+#readingglasses-multilevel-menu a:link,
+#readingglasses-multilevel-menu a:hover,
+#readingglasses-multilevel-menu a:active {
 	text-decoration: none;
 	color: inherit;
 	outline: 0;
 }
 
-#diziana-multilevel-menu li {
+#readingglasses-multilevel-menu li {
 	float: left;
 	width: 100%;
 }
 
-#diziana-multilevel-menu span {
+#readingglasses-multilevel-menu span {
 	display: inline-block;
 }
 
-#diziana-multilevel-menu .list-item {
+#readingglasses-multilevel-menu .list-item {
 	width: 100%;
 }
 
-#diziana-multilevel-menu .list-item-name {
+#readingglasses-multilevel-menu .list-item-name {
 	width: 90%;
 }
 
-#diziana-multilevel-menu .list-item-icon {
+#readingglasses-multilevel-menu .list-item-icon {
 	float: right;
 	width: 10%;
 	text-align: right;
 }
 
-#diziana-multilevel-menu .list-item-icon .hover {
+#readingglasses-multilevel-menu .list-item-icon .hover {
 	display: none;
 }
 
-#diziana-multilevel-menu .icons8-plus,
-#diziana-multilevel-menu .icons8-minus {
+#readingglasses-multilevel-menu .icons8-plus,
+#readingglasses-multilevel-menu .icons8-minus {
 	display: none;
 	color: grey;
 }
 
-#diziana-multilevel-menu li.category.level-0 {
+#readingglasses-multilevel-menu li.category.level-0 {
 	padding: 0 10px;
 }
 
-#diziana-multilevel-menu a.list-item-link.category {
+#readingglasses-multilevel-menu a.list-item-link.category {
 	padding: 10px 0;
 	border-bottom: 1px solid #afafaf;
 }
 
-#diziana-multilevel-menu a.list-item-link.category .list-item-name {
+#readingglasses-multilevel-menu a.list-item-link.category .list-item-name {
 	color: grey;
 }
 
-#diziana-multilevel-menu a.list-item-link.category .icons8-plus {
+#readingglasses-multilevel-menu a.list-item-link.category .icons8-plus {
 	display: inline-block;
 }
 
-#diziana-multilevel-menu a.list-item-link.category.open .list-item-name {
+#readingglasses-multilevel-menu a.list-item-link.category.open .list-item-name {
 	font-size: 1.1rem;
 	font-weight: 500;
 	color: rgba(71, 107, 45, 1);
 }
 
-#diziana-multilevel-menu a.list-item-link.category.open .icons8-plus {
+#readingglasses-multilevel-menu a.list-item-link.category.open .icons8-plus {
 	display: none;
 }
 
-#diziana-multilevel-menu a.list-item-link.category.open .icons8-minus {
+#readingglasses-multilevel-menu a.list-item-link.category.open .icons8-minus {
 	display: inline-block;
 }
 
-#diziana-multilevel-menu li.section.level-1 {
+#readingglasses-multilevel-menu li.section.level-1 {
 	padding: 0;
 }
 
-#diziana-multilevel-menu a.list-item-link.section {
+#readingglasses-multilevel-menu a.list-item-link.section {
 	padding: 10px 0;
 }
 
-#diziana-multilevel-menu a.list-item-link.section .list-item-name {
+#readingglasses-multilevel-menu a.list-item-link.section .list-item-name {
 	color: black;
 }
 
-#diziana-multilevel-menu a.list-item-link.section .icons8-plus {
+#readingglasses-multilevel-menu a.list-item-link.section .icons8-plus {
 	display: inline-block;
 }
 
-#diziana-multilevel-menu a.list-item-link.section.open .list-item-name {
+#readingglasses-multilevel-menu a.list-item-link.section.open .list-item-name {
 	font-weight: 400;
 }
 
-#diziana-multilevel-menu a.list-item-link.section.open .icons8-plus {
+#readingglasses-multilevel-menu a.list-item-link.section.open .icons8-plus {
 	display: none;
 }
 
-#diziana-multilevel-menu a.list-item-link.section.open .icons8-minus {
+#readingglasses-multilevel-menu a.list-item-link.section.open .icons8-minus {
 	display: inline-block;
 }
 
-#diziana-multilevel-menu li.section.level-2 {
+#readingglasses-multilevel-menu li.section.level-2 {
 	padding: 0;
 }
 
-#diziana-multilevel-menu a.list-item-link.article {
+#readingglasses-multilevel-menu a.list-item-link.article {
 	padding: 10px 0 10px 10px;
 }
 
-#diziana-multilevel-menu a.list-item-link.article .list-item-name {
+#readingglasses-multilevel-menu a.list-item-link.article .list-item-name {
 	color: black;
 }
 
-#diziana-multilevel-menu a.list-item-link.article .icons8-plus {
+#readingglasses-multilevel-menu a.list-item-link.article .icons8-plus {
 	display: inline-block;
 }
 
-#diziana-multilevel-menu a.list-item-link.article.open .list-item-name {
+#readingglasses-multilevel-menu a.list-item-link.article.open .list-item-name {
 	font-weight: 400;
 	color: rgba(71, 107, 45, 1);
 }
 
-#diziana-multilevel-menu ul.submenu.section > li {
+#readingglasses-multilevel-menu ul.submenu.section > li {
 	padding-left: 10px;
 }
 
-#diziana-multilevel-menu ul.submenu.section > li:nth-child(even) > .list-item-link.article {
+#readingglasses-multilevel-menu ul.submenu.section > li:nth-child(even) > .list-item-link.article {
 	background-color: #fff;
 }
 
-#diziana-multilevel-menu ul.submenu.section > li:nth-child(odd) > .list-item-link.article {
+#readingglasses-multilevel-menu ul.submenu.section > li:nth-child(odd) > .list-item-link.article {
 	background-color: #f3f2f2;
 }
 
