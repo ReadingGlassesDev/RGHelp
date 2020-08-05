@@ -3,7 +3,7 @@
 <header class="header rg-header">
   <div class="container">
   <div class="row">
-    <div class="col-xs-12 col-md-1 rg-logo-wrapper">
+    <div class="col-xs-12 col-sm-10 col-md-10 rg-logo-wrapper">
       {{#link 'help_center'}}
         <img src="{{settings.logo}}" alt="{{t 'home_page' name=help_center.name}}">
       {{/link}}
@@ -44,8 +44,8 @@
     </div>
 </header>
 
-<div id="wrapper">
-<div id="nav2017" class="nav hide_tablet">
+<div id="wrapper" class="row">
+<div id="nav2017" class="nav hide_tablet col-md-12">
 <!--[if lte IE 8 ]>   <div class="nav n2"> <![endif]-->
 <nav class="n2">
 <ul class="n2ul">
@@ -492,4 +492,4 @@
 </ul></nav>
 <!--[if lte IE 8 ]>   </div> <![endif]-->
 </div>
-<div id="helpcenter">
+<div id="helpcenter" class="col-xs-12">
