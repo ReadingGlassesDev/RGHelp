@@ -19,21 +19,22 @@
 <div id="wrapper">
   <div id="logoContainer" class="container">
 <div class="row" style="position: relative">
-<div id="rgLogo2">
-{{#link 'help_center'}}
-<img alt="ReadingGlasses.com" src="https://www.readingglasses.com/assets/img/2017/rgLogo.svg?v=3" width="431" height="67" onload="this.className='loaded'" class="loaded">
-{{/link}}
-</div>
-<!-- /#rgLogo2 -->
-  <div class="nav-wrapper">
+  <div class="logo col-xs-12 col-md-1">
+    {{#link 'help_center'}}
+      <img src="{{settings.logo}}" alt="{{t 'home_page' name=help_center.name}}">
+    {{/link}}
+  </div>
+  <div class="nav-wrapper col-xs-12 col-sm-12 col-md-11">
     <button class="menu-button" aria-controls="user-nav" aria-expanded="false" aria-label="{{t 'toggle_navigation'}}">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" focusable="false" viewBox="0 0 16 16" class="icon-menu">
         <path fill="none" stroke="currentColor" stroke-linecap="round" d="M1.5 3.5h13m-13 4h13m-13 4h13"/>
       </svg>
     </button>
     <nav class="user-nav" id="user-nav">
-  
+    
       {{link 'new_request' class='submit-a-request'}}
+   
+      
     </nav>
     {{#if signed_in}}
       <div class="user-info dropdown">
@@ -59,9 +60,6 @@
       {{/link}}
     {{/if}}
   </div>
-  <!-- /.nav-wrapper -->
-</div>
-<!-- /.row -->
 </div>
 <!-- /#logoContainer -->
 
