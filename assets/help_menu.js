@@ -86,9 +86,10 @@ $(document).ready(function(){
 
   var stickyFlag = true,
       sticky = null,
-      wMM = $('.rg-page_article .rg-mm-wrapper').width();
+      wMM = $('.rg-mm-wrapper').width();
 
-  $('#rg-mm-styles').empty().html('<style>.rg-mm-wrapper > span, #rg-mm-menu { width: ' + wMM + 'px !important; }</style>');
+  if(wMM>100)
+    $('#rg-mm-styles').empty().html('<style>.rg-mm-wrapper > span, #rg-mm-menu { width: ' + wMM + 'px !important; }</style>');
 
   setInterval(function() {
     if ( stickyFlag && ($('a.list-item-link.category').length > 0)  && (articlePageHeight > 450) ) {
@@ -101,29 +102,8 @@ $(document).ready(function(){
 
 //Fix for Mulilevel Menu on Article Page
 $(window).resize( function () {
-  var wMM = $('.rg-page_article .rg-mm-wrapper').width();
-  $('#rg-mm-styles').empty().html( '<style>.rg-mm-wrapper > span, #rg-mm-menu { width: '+ wMM +'px !important; }</style>' );
+  var wMM = $('.rg-mm-wrapper').width();
+  if(wMM>100)
+    $('#rg-mm-styles').empty().html( '<style>.rg-mm-wrapper > span, #rg-mm-menu { width: '+ wMM +'px !important; }</style>' );
 });
 
-
-
-document.addEventListener('DOMContentLoaded', function(event){
-  
-  $('a').click((event)=>{
-    if(event.currentTarget.dataset.gaType && event.currentTarget.dataset.gaLabel){
-      dataLayer.push({
-          event: "gaEventTrigger",
-          gaEventCategory: "help-center-navigation",
-          gaEventAction: event.currentTarget.dataset.gaType,
-          gaEventLabel: event.currentTarget.dataset.gaLabel,
-          gaEventNonInteraction: true
-      });
-    }
-  });
-  
-  if(!!window.navigator.appVersion.match(/hellofresh/i)){
-    $('.rg-header').hide();
-    $('.rg-footer-top').hide();
-    $('.rg-mobile-links').hide();
-  } 
-});
