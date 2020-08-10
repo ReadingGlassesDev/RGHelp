@@ -4756,6 +4756,7 @@ Common Styles
 
 .rg-border,
 select,
+/* 
 .form-field input[type='date'],
 .form-field input[type='email'],
 .form-field input[type='number'],
@@ -4765,6 +4766,7 @@ select,
 .form-field .nesty-input,
 #hc-wysiwyg,
 .search input[type='search'],
+ */
 #community_comment_body,
 #comment_body {
 	border: 1px solid #d0d0d0;
@@ -6038,6 +6040,7 @@ input[type='search']::-ms-clear {
 /* Search Module
 /*-------------------------------------------*/
 
+/*
 .search {
 	position: relative;
 	border: 1px solid #d0d0d0;
@@ -6106,12 +6109,14 @@ input[type='search']::-ms-clear {
 .search input[type='search']::-moz-placeholder {
 	opacity: 1;
 }
+ */
 
 /*-------------------------------------------*/
 
 /* Pagination Module
 /*-------------------------------------------*/
 
+/* 
 .pagination {
 	margin-top: 15px;
 }
@@ -6188,6 +6193,7 @@ input[type='search']::-ms-clear {
 	margin-right: 0 !important;
 	padding-right: 0 !important;
 }
+ */
 
 /*-------------------------------------------*/
 
