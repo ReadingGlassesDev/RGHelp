@@ -1843,7 +1843,6 @@ ul {
 }
 
 /***** Social share links *****/
-/* 
 .share {
   padding: 0;
   white-space: nowrap;
@@ -1872,7 +1871,6 @@ ul {
   width: 18px;
   display: block;
 }
- */
 
 /***** Comments *****/
 /* Styles comments inside articles, posts and requests */
