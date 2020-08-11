@@ -1843,6 +1843,7 @@ ul {
 }
 
 /***** Social share links *****/
+/* 
 .share {
   padding: 0;
   white-space: nowrap;
@@ -1871,6 +1872,7 @@ ul {
   width: 18px;
   display: block;
 }
+ */
 
 /***** Comments *****/
 /* Styles comments inside articles, posts and requests */
@@ -5217,7 +5219,8 @@ input[disabled] {
 
 [class^='icon-']::before,
 [class*=' icon-']::before,
-.icon,
+.icon /* 
+,
 .search::before,
 .search::after,
 .recent-activity-item-comment span::before,
@@ -5230,7 +5233,8 @@ input[disabled] {
 .collapsible-nav-list li[aria-selected='true']::after,
 .collapsible-sidebar-title::after,
 .search-result-votes::before,
-.search-result-meta-count::before {
+.search-result-meta-count::before
+ */ {
 	font-family: 'copenhagen-icons';
 	font-weight: normal;
 	font-style: normal;
@@ -7841,6 +7845,7 @@ a.footer-download-app {
 /* Social Links Module
 /*-------------------------------------------*/
 
+/* 
 .share {
 	padding: 0;
 	white-space: nowrap;
@@ -7895,6 +7900,7 @@ a.footer-download-app {
 	content: '\e902';
 	background: #dd4a3a;
 }
+ */
 
 /*-------------------------------------------*/
 
