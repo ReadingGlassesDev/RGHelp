@@ -297,6 +297,7 @@ textarea:focus {
   max-width: 1160px;
   margin: 0 auto;
   padding: 0 5%;
+  
 }
 
 @media (min-width: 1160px) {
@@ -315,7 +316,7 @@ ul {
   list-style: bullets;
   margin: 0;
   padding-left: 15px;
-  color: #00b1e0;
+
 }
 
 .error-page {
@@ -1190,6 +1191,14 @@ ul {
   text-align: center;
 }
 
+/** Featured Blog Articles **/
+
+.blog-wrapper {
+  width: 100%
+    min-height: 330px;
+    background-color: #eee;
+}
+
 /***** Promoted articles *****/
 .promoted-articles {
   display: flex;
@@ -1387,6 +1396,7 @@ ul {
   width: 330px;
 }
 
+
 .category-content {
   flex: 1;
 }
@@ -1401,7 +1411,7 @@ ul {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
+  
 }
 
 @media (min-width: 768px) {
@@ -1645,6 +1655,17 @@ ul {
 
 .article-body > p:last-child {
   margin-bottom: 0;
+}
+
+.article-shop a {
+  background-color:#01b2e2;
+  font: 16px;
+  color:#FFFFFF;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
 }
 
 .article-content {
