@@ -1193,11 +1193,41 @@ ul {
 
 /** Featured Blog Articles **/
 
-.blog-wrapper {
-  width: 100%
-    min-height: 330px;
-    background-color: #eee;
+.blog-section{
+  background: #f7f7f6;
+  width: 100%;
+  min-height: 300px;
+  box-sizing: border-box;
+ 
 }
+
+.blog-section h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+.blog-section h3 {
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
 
 /***** Promoted articles *****/
 .promoted-articles {
