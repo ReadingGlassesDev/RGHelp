@@ -41,5 +41,27 @@
 <script>
 var $ = jQuery.noConflict();
 $(function(){initMultiLevelMenu({htmlClass:'rg-mm-menu',iconType:'plus/minus'});});
+
+function loadnav() {
+  $.get("https://www.readingglasses.com/zdnav.php",function(data){
+    var dom = $("<div>");
+    dom.html(data);
+    var sections = ["#topnav_top","#topnav_bottom","#bottomnav"];
+    for(var s=0;s<sections.length;s++)
+    {
+      var sect = sections[s];
+      var section = dom.find(sect);
+      if(section.length>0)
+      {
+        if($(sect).length==0)
+          console.warn("Unable to find output section " + sect);
+        else
+          $(sect).replaceWith(section.html());
+      }
+      else console.warn("Unable to find source section " + sec);
+    }
+  });
+}
+
+loadnav();
 </script>
-<script src="https://www.readingglasses.com/assets/js/zdhc.js"></script>
