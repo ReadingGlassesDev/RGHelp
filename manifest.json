@@ -1,7 +1,7 @@
 {
   "name": "RG Help",
   "author": "Zendesk",
-  "version": "2.3.52",
+  "version": "2.3.53",
   "api_version": 2,
   "default_locale": "en-us",
   "settings": [
