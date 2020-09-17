@@ -299,12 +299,14 @@ textarea:focus {
   padding: 0 5%;
   
 }
+header.container, .container#logoContainer { max-width: inherit; }
 
 @media (min-width: 1160px) {
   .container {
     padding: 0;
     width: 90%;
   }
+  header.container, .container#logoContainer { width: 100%; }
 }
 
 .container-divider {
@@ -10230,6 +10232,8 @@ Cross Browser Fixes
 	width: 750px;
 }
 
+header.container, .container#logoContainer { width: 100%; max-width: inherit; }
+
 .col-sm-1,
 .col-sm-2,
 .col-sm-3,
@@ -10652,7 +10656,7 @@ td.visible-sm {
 	width: 970px;
 }
 
-header.container, .container#logoContainer { width: 100%; }
+header.container, .container#logoContainer { width: 100%; max-width: inherit; }
 
 .col-md-1,
 .col-md-2,
@@ -11191,7 +11195,7 @@ td.visible-md {
 	width: 1170px;
 }
 
-header.container, .container#logoContainer { width: 100%; }
+header.container, .container#logoContainer { width: 100%; max-width: inherit; }
 
 .col-lg-1,
 .col-lg-2,
