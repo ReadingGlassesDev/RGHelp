@@ -11465,7 +11465,7 @@ td.visible-lg {
 	width: initial;
 	max-width: 1440px;
 }
-header.container { max-width: inherit; }
+header.container, .container#logoContainer { max-width: inherit; }
 
 }
 
